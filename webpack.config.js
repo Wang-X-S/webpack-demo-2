@@ -8,6 +8,10 @@ module.exports = {
       path: path.resolve(__dirname, 'dist'),
       filename: 'index.[contenthash].js',
     },
+    devtool: 'inline-source-map',
+    devServer: {
+            contentBase: './dist',
+          },
     plugins: [new HtmlWebpackPlugin({
         title: '13jun',
         template: 'src/assets/index.html'
