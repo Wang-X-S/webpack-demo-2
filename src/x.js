@@ -1,2 +1,4 @@
-import  './x.css' //引入css
-export default 'xxx'  //导出
+import './x.scss' 
+import './y.less' 
+import './z.styl'
+export default 'xxx' 
